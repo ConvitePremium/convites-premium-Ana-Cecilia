@@ -118,7 +118,7 @@ window.CONFIG = {
     corNumero: "#ffffff",
     corLegenda: "#ffffff",
     posicao: { left:14.747578873801913, top:57.20599250739037, width:71.73164499301117, height:6.33372410933405 }
-  }
+  },
 
   // ----- MÚSICA DE FUNDO -------------------------------------------------
   // Volumes independentes: durante o vídeo e depois, no convite principal.
