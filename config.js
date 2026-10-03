@@ -30,14 +30,14 @@ window.CONFIG = {
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5591985613837",
+    numero: "5553981240781",
     mensagem: "Olá! Confirmo minha presença no aniversário da Ana Cecília."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://share.google/7oyi4t2qFT3dR1Bpf",
+  mapa: "https://maps.app.goo.gl/GiZuaPVch5f2aPf5A?g_st=aw",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
@@ -47,11 +47,11 @@ window.CONFIG = {
   telas: {
     video: true,
     whatsapp: true,
-    localizacao: false,
+    localizacao: true,
     presentes: true,
     dresscode: false,
     manual: false,
-    contagem: false
+    contagem: true
   },
 
   // ----- PIX OPCIONAL (SUGESTÕES DE PRESENTES) ---------------------------
@@ -110,7 +110,7 @@ window.CONFIG = {
   // corLegenda altera a cor de Meses, Dias, Horas, Min e Seg.
   // Aceita hexadecimal, nome de cor ou rgb().
   contagem: {
-    dataEvento: "2026-08-29T18:30:00",
+    dataEvento: "2026-11-08T19:00:00",
     textoFinal: "A festa começou!",
     corNumero: "#ffffff",
     corLegenda: "#ffffff",
@@ -121,8 +121,8 @@ window.CONFIG = {
   // Volumes independentes: durante o vídeo e depois, no convite principal.
   // A música NÃO é pausada na troca, o que ajuda na compatibilidade com Safari/iPhone.
   musica: {
-    volume: 0.20,
-    volumeVideo: 0.08,
-    volumePrincipal: 0.20
+    volume: 0.30,
+    volumeVideo: 0.10,
+    volumePrincipal: 0.30
   }
 };
